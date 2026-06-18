@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: dev
+  thymeleaf:
+    mode: HTML
+  devtools:
+    restart:
+      trigger-file: .trigger
+
+av:
+  name: Remu
+  cup: E-Cup
+  product: S1
+  description: ${av.name} , 真香
+  uid: ${random.uuid}
+
+

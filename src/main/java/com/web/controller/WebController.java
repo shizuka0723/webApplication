@@ -8,6 +8,6 @@ public class WebController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "Hello World 123456!";
+        return "Hello haruka";
     }
 }
